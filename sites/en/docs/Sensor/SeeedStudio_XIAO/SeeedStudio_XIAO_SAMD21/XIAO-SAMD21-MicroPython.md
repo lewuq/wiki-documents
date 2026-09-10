@@ -45,11 +45,6 @@ Just go to the official and download the latest firmware
 
     - [XIAO SAMD21 Series MicroPython Firmware](https://micropython.org/download/SEEED_XIAO_SAMD21/)
 
-:::tip
-
-After firmware v1.30.0, XIAO SAMD21 and XIAO SAMD21 Plus share one unified firmware. Please get the latest version.
-
-:::
 
 It is also possible to [compile your own firmware](https://wiki.seeedstudio.com/Compiling_MicroPython_for_embedded_devices/) in order to ensure security and support for the latest features, but this is not necessary.
 <br/>
@@ -64,11 +59,6 @@ It is also possible to [compile your own firmware](https://wiki.seeedstudio.com/
 
     - [XIAO SAMD21 Series MicroPython Firmware](https://micropython.org/download/SEEED_XIAO_SAMD21/)
 
-:::tip
-
-After firmware v1.30.0, XIAO SAMD21 and XIAO SAMD21 Plus share one unified firmware. Please get the latest version.
-
-:::
 
 ### Software Setup
 

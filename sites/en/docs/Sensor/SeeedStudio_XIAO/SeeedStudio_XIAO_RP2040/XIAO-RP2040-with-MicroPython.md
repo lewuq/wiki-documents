@@ -3,7 +3,7 @@ description: Seeed Studio XIAO RP2040 with MicroPython
 title: MicroPython
 keywords:
   - xiao
-image: https://files.seeedstudio.com/wiki/wiki-platform/S-tempor.png
+image: https://files.seeedstudio.com/wiki/XIAO-RP2040/img/xiao-rp2040-45font_1.webp
 slug: /XIAO-RP2040-with-MicroPython
 last_update:
   date: 1/11/2023
@@ -27,7 +27,7 @@ First, we are going to connect the Seeed Studio XIAO RP2040  Series to the compu
 
 ### Hardware Setup
 
-- [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or [Seeed Studio XIAO RP2040 Plus] https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html x1
+- [Seeed Studio XIAO RP2040](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) or [Seeed Studio XIAO RP2040 Plus](https://www.seeedstudio.com/Seeed-Studio-XIAO-RP2040-Plus-p-6932.html) x1
 - Type-C cable x1
 - PC x1
 
@@ -42,12 +42,6 @@ First, we are going to connect the Seeed Studio XIAO RP2040  Series to the compu
     Just go to the official and download the latest firmware,  then drag‑and‑drop the `.uf2` file into the **RPI-RP2** disk to finish firmware flashing.
 
     - [XIAO RP2040 Series MicroPython Firmware](https://micropython.org/download/SEEED_XIAO_RP2040/)
-
-:::tip
-
-After firmware v1.30.0, XIAO RP2040 and XIAO RP2040 Plus share one unified firmware. Please get the latest version.
-
-:::
 
 ### Software Setup
 
@@ -65,11 +59,11 @@ After firmware v1.30.0, XIAO RP2040 and XIAO RP2040 Plus share one unified firmw
 
 <div align="center"><img width={550} src="https://files.seeedstudio.com/wiki/XIAO_SAMD/img/mpy_1.png" /></div>
 
-**Step 3.** Version information will be displayed in the Shell.
+**Step 5.** Version information will be displayed in the Shell.
 
 <div align="center"><img width={550} src="https://files.seeedstudio.com/wiki/XIAO-RP2040/img/micropython/mpy_2_1.png" /></div><br/>
 
-**Step 4.** Go to Files -> New, paste the code below, and run the script.
+**Step 6.** Go to Files -> New, paste the code below, and run the script.
 
 ```py
 from machine import Pin, Timer
